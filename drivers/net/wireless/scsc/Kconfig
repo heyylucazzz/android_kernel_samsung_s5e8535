@@ -230,7 +230,7 @@ config SCSC_ENHANCED_PACKET_STATS
 
 config SCSC_WLAN_LOW_LATENCY_MODE
         bool "Support enabling/disabling roaming as per latency mode"
-        default n
+        default y
         help
           This option tells whether support is provided for enabling
           or disabling roaming as per the latency mode.
@@ -368,7 +368,7 @@ config SCSC_WLAN_CPUHP_MONITOR
 
 config SCSC_WLAN_SUPPORT_6G
         bool "Enable 6G band"
-        default n
+        default y
         help
         This option enables 6g band support.
 
