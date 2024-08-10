@@ -94,6 +94,7 @@ static inline bool is_hyp_mode_available(void)
         __boot_cpu_mode[1] == BOOT_CPU_MODE_EL2);*/
     return 1;
 }
+
 /* Check if the bootloader has booted CPUs in different modes */
 static inline bool is_hyp_mode_mismatched(void)
 {
